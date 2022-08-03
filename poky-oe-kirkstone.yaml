@@ -19,3 +19,16 @@ repos:
       meta-filesystems:
       meta-webserver:
       meta-oe:
+      
+  meta-qt5:
+    url: "git@github.com:meta-qt5/meta-qt5.git"
+    refspec: "kirkstone"
+    layers:
+      .:
+  
+  meta-raspberrypi:
+    url: "git@github.com:agherzan/meta-raspberrypi.git"
+    refspec: "kirkstone"
+    layers:
+      .:
+      
